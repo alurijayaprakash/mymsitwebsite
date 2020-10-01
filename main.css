@@ -1,0 +1,27 @@
+/* Adding Background Color to Navigation bar */
+.topnav{
+    background-color: #009933;
+    overflow: hidden;
+}
+
+/* giving style the links inside Navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Changing the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/*  Add color to Active or Current link  */
+.topnav a.active {
+    background-color: #fb4400;
+    color: white;
+}
