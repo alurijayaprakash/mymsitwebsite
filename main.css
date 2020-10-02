@@ -1,4 +1,4 @@
-/* Adding Background Color to Navigation bar */
+/* Adding Background Color to Navigation bar Started */
 .topnav{
     background-color: #009933;
     overflow: hidden;
@@ -25,7 +25,7 @@
     background-color: #fb4400;
     color: white;
 }
-
+/* Adding Background Color to Navigation bar Ended */
 /* SLider CSS Code Started */
 .slider-holder
 {
@@ -91,3 +91,116 @@
     background-color: brown;
 }
 /* SLider CSS Code Started */
+/* Button Data */
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+.button span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+.button span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+.button:hover span {
+padding-right: 25px;
+}
+
+.button:hover span:after {
+opacity: 1;
+right: 0;
+}
+/* Button Data End */
+/* ----------------Footer 3 sections Started------------------- */
+#readmorelinkfotter { color: #FF0000; }
+* {
+box-sizing: border-box;
+  }
+
+/* Create three equal columns that floats next to each other */
+.column {
+float: left;
+width: 33.33%;
+padding: 10px;
+height: 300px; /* Should be removed. Only for demonstration */
+color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+/* ----------------Footer 3 sections Ended------------------- */
+/* Main Fotter */
+.all-browsers {
+margin: 0;
+padding: 5px;
+background-color: lightgray;
+}
+
+.all-browsers > h1, .browser {
+margin: 10px;
+padding: 5px;
+}
+
+.browser {
+background: white;
+}
+
+.browser > h2, p {
+margin: 4px;
+font-size: 90%;
+}
+
+footer {
+text-align: center;
+padding: 3px;
+background-color: rgb(24, 24, 24);
+color: white;
+}
+/* Main Fotter end */
+
+/*Footer 2/3 Code */
+/* unvisited link */
+#footerhelplink a:link {
+color: gray;
+}
+
+/* visited link */
+#footerhelplink a:visited {
+color: green;
+}
+
+/* mouse over link */
+#footerhelplink a:hover {
+color: #fb4400;
+}
+
+/* selected link */
+#footerhelplink a:active {
+color: yellow;
+}
+/* Footer 2/3 Code */
