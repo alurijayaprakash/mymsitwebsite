@@ -181,6 +181,10 @@ padding: 3px;
 background-color: rgb(24, 24, 24);
 color: white;
 }
+
+footer .column {
+    text-align: left;
+}
 /* Main Fotter end */
 
 /*Footer 2/3 Code */
@@ -204,3 +208,4 @@ color: #fb4400;
 color: yellow;
 }
 /* Footer 2/3 Code */
+
