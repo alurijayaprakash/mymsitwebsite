@@ -254,3 +254,84 @@ color: yellow;
 /* Footer 2/3 Code */
 
 
+  /* Portfolio Started */
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  /* Center website */
+  .main {
+    max-width: 1500px;
+    margin: auto;
+    color: black;
+  }
+  
+  
+  .row12 {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row12,
+  .row12 > .column111 {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column111 {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row12:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column111 {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column111 {
+      width: 100%;
+    }
+  }
+  /* Portfolio Ended */
+
+    
+/* Testing for Links */
+.port a:link {
+    color: #fb4400;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .port a:visited {
+    color: #c43703;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .port a:hover {
+    color: #fb4400;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .port a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  /* Testing fir Links */
