@@ -56,13 +56,13 @@
   }
   
   
-  .row {
+  .row12 {
     margin: 8px -16px;
   }
   
   /* Add padding BETWEEN each column */
-  .row,
-  .row > .column111 {
+  .row12,
+  .row12 > .column111 {
     padding: 8px;
   }
   
@@ -73,7 +73,7 @@
   }
   
   /* Clear floats after rows */ 
-  .row:after {
+  .row12:after {
     content: "";
     display: table;
     clear: both;
